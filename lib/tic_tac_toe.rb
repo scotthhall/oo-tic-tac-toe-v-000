@@ -1,9 +1,6 @@
 require "pry"
 
 class TicTacToe
-  def initialize
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  end
   WIN_COMBINATIONS = [
     [0, 1, 2], # Top row
     [3, 4, 5], # Middle row
@@ -14,6 +11,10 @@ class TicTacToe
     [0, 4, 8], # Down diagonal
     [6, 4, 2] # Up diagonal
   ]
+  def initialize
+    binding.pry
+    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  end
   def display_board
     binding.pry
     @board
