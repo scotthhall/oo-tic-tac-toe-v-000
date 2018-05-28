@@ -12,10 +12,10 @@ class TicTacToe
     [6, 4, 2] # Up diagonal
   ]
   def initialize
-    binding.pry
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
   def display_board
     @board
   end
+  binding.pry
 end
