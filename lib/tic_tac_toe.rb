@@ -15,6 +15,7 @@ class TicTacToe
     [6, 4, 2] # Up diagonal
   ]
   def display_board
+    binding.pry
     @board
   end
 end
