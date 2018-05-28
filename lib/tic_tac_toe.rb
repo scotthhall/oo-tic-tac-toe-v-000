@@ -67,13 +67,13 @@ class TicTacToe
     end
   end
 
-def full?(board)
-  board.all? do |cell|
+  def full?
+    @board.all? do |cell|
     cell == "X" || cell == "O"
+    end
   end
-end
 
-def draw?(board)
-  full?(board) && !won?(board)
-end
+  def draw?
+    full? && !won?
+  end
 end
