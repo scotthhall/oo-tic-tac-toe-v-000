@@ -15,7 +15,6 @@ class TicTacToe
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
   def display_board
-    @board
     binding.pry
   end
 end
