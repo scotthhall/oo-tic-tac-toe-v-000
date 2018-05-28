@@ -16,6 +16,6 @@ class TicTacToe
   end
   def display_board
     @board
+    binding.pry
   end
-  binding.pry
 end
